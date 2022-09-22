@@ -58,7 +58,7 @@ def team_score():
 def date_url(date):
 
         baseball_url = "http://gd2.mlb.com/components/game/mlb/year_%d/month_%s/day_%s/master_scoreboard.json" \
-        % (now.year, now.strftime("%m"), yesterday.strftime("%d"))
+        % (now.year, now.strftime("%m"), now.strftime("%d"))
 
         return baseball_url
 
